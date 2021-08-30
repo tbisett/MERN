@@ -1,0 +1,36 @@
+Question 1:
+    hello is undefined
+
+Question 2: 
+    magnet
+
+Question 3:
+    super cool
+
+Question 4:
+    chicken
+    half-chicken
+
+Question 5:
+    chicken
+    fish
+    not defined
+    not defined
+    Answer : mean is not a function
+
+Question 6:
+    undefined
+    rock
+    r&b
+    disco
+
+Question 7:
+    san jose
+    seattle
+    burbank 
+    san jose
+
+Question 8:
+    dojo = {name: "Chicago", students: 65, hiring: true}
+    Error
+    Answer: Assignment to constant variable
