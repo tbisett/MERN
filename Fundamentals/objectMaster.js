@@ -26,19 +26,26 @@ const pokémon = Object.freeze([
 
     
     const divBy3 = pokémon.filter( p => p.id %3 === 0);
-    console.log(divBy3);
+    console.table(divBy3);
+    
     const pokFire = pokémon.filter(p => p.types.includes("fire"));
-    console.log(pokFire);
+    console.table(pokFire);
+    
     const moreOneType = pokémon.filter(p => p.types.length > 1);
-    console.log(moreOneType);
+    console.table(moreOneType);
+    
     const pokeName = pokémon.map(p => p.name);
-    console.log(pokeName);
+    console.table(pokeName);
+    
     const id99 = pokémon.filter(p => p.id>99).map(p2 => p2.name);
-    console.log(id99);
+    console.table(id99);
+    
     const poison = pokémon.filter(p => p.types.length === 1 && p.types.includes("poison")).map(p2 => p2.name);
-    console.log(poison);
+    console.table(poison);
+    
     const firstFlying = pokémon.filter(p => p.types.length = 2 && p.types[1] === "flying").map(p2 => p2.types[0]);
-    console.log(firstFlying);
+    console.table(firstFlying);
+    
     const normal = pokémon.filter(p => p.types.includes("normal"))
-    console.log(normal.length);
+    console.table(normal.length);
     console.table(normal);
