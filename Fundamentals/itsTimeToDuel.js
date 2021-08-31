@@ -29,13 +29,13 @@ class Effect extends Card {
     effectAttack(target, stat) {
         if(stat === "resilience") {
             target.resilience += this.magnitude;
-        } else {
-            if(stat === "power") {
-                target.power += this.magnitude;
-            }
+        } else if(stat === "power") {
+            target.power += this.magnitude;
+        
         }
     }
 }
+
 
 
 
